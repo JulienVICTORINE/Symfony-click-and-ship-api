@@ -18,7 +18,7 @@ class AppFixtures extends Fixture
             $product->setName("Produit $i");
             $product->setDescription("Description du produit $i");
             $product->setPrice(mt_rand(10, 100));
-            $product->setImage("https://via.placeholder.com/150");
+            $product->setImage("https://picsum.photos/200");
 
             $manager->persist($product);
         }
